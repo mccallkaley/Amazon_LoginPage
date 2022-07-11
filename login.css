@@ -1,0 +1,82 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#main-form {
+    width: 400px;
+    height: 300px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:left;
+}
+
+#continue-button {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: orange;
+    border: 1px solid black;
+    color: black;
+    padding: 10px 150px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+
+}
+
+#email-and-password {
+    display: flex;
+    text-align: center;
+    width: 400px;
+  }
+
+#forgot-password {
+    text-align: right;
+    padding: 70px;
+}
+
+#create-button
+{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgray;
+    border: 1px solid black;
+    color: black;
+    padding: 10px 100px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+li {
+    display: inline;
+}
+
+#links-list
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+li a {
+    display: inline;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+div a {
+    display: inline;
+    text-decoration: none;
+}
+
+span {
+    padding: 0 10px;
+}
